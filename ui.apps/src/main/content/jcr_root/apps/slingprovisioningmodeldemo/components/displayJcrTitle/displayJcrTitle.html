@@ -1,0 +1,11 @@
+<h3>Sling Provisioning Model Demo Verification</h3>
+
+<p>This component uses a service account created with the Sling Provisioning Model to read the 
+    jcr:title property of the /conf/global/settings/workflow resource. The value should be
+    "workflow settings" if everything has been configured properly.</p>
+
+<p>The jcr:title is:</p>
+
+<p data-sly-use.model="com.nateyolles.aem.slingprovisioningmodeldemo.core.models.JcrTitleModel">
+    <strong>${model.jcrTitle}</strong>
+</p>
