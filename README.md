@@ -2,6 +2,8 @@
 
 This project is a demonstration of using the Sling Provisioning Model to create resources in the JCR, create users, create service users, and set ACLs in an AEM project.
 
+This project was created and tested with AEM 6.4.
+
 ## Modules
 
 The main parts of the project are:
