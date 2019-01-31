@@ -34,7 +34,7 @@
     <description>Git clone Installer Factory Model from Apache and build and install it.</description>
 
     <properties>
-        <sling.provisioningmodel.scm>scm:git:git@github.com:apache/sling-org-apache-sling-installer-factory-model.git</sling.provisioningmodel.scm>
+        <sling.provisioningmodel.scm>scm:git:git://github.com/apache/sling-org-apache-sling-installer-factory-model.git</sling.provisioningmodel.scm>
         <sling.provisioningmodel.bundle>org.apache.sling.installer.factory.model-0.1.0-SNAPSHOT.jar</sling.provisioningmodel.bundle>
     </properties>
 
